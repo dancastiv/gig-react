@@ -11,6 +11,7 @@ function App() {
       <Gig 
           artist="Claude Debussy"
           image={claudeDebussy}
+          altText="debussy"
           eventdescription="Finally in concert for the first time this century!"
           date="April 1st, 2024"
           location="Paris, France"
