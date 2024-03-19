@@ -1,12 +1,12 @@
 import claudeDebussy from "../assets/Claude-Debussy.webp"
-const Gig = () => {
+const Gig = (props) => {
     return (
         <>
-        <h3>Claude Debussy</h3>
-        <img className="logo" src={claudeDebussy}></img>
-        <p className="event-description">Finally in concert for the first time this century!</p>
-        <p className="date">April 1st, 2024</p>
-        <p className="location">Paris, France</p>
+        <h3 className="artist">{props.artist}</h3>
+        <img className="logo" src={props.image}></img>
+        <p className="event-description">{props.eventdescription}</p>
+        <p className="date">{props.date}</p>
+        <p className="location">{props.location}</p>
         </>
     
     )
